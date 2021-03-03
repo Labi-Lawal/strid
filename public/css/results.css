@@ -1,0 +1,158 @@
+section.content{
+    width: 60%;
+    border-right: 1px solid red;
+}
+section.content div.record{
+    
+}
+div.no-record img{
+    width: 50%;
+}
+div.no-record div.message{
+    font-weight: 800;
+    font-size: 200%;
+    color: grey;
+}
+div.links div.results{
+    color: rgba(221, 12, 40, 0.603)!important;
+    border-right: 4px solid rgba(221, 12, 40, 0.603);
+}
+div.record div.header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding: 0% 5%;
+}
+div.buykitbutton{
+    background: crimson;
+    border-radius: 15px;
+    padding: 0% 1%;
+    width: 15%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+}
+div.buykitbutton div.text{
+    width: 60%;
+    font-size: 90%;
+    font-weight: 500;
+    color: white;
+}
+div.buykitbutton div.icon{
+    margin-right: 0px !important;
+    font-size: 100%;
+    font-weight: 800;
+    background: white;
+    color: crimson;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.list{
+    padding: 5% 0% 0% 5%;
+}
+div.list > div.product{
+    width: 20%;
+    height: 220px;
+    margin-bottom: 5%;
+    display: inline-block;
+    margin-right: 25px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px 1px rgb(235, 235, 235);
+    border-radius: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div.product img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+}
+div.product > div.details{
+    padding: 2%;
+    height: 30%;
+}
+div.details div.name{
+    font-size: 90%;
+    font-weight: 300;
+    padding: 1% 0%;
+}
+div.details div.desc{
+    font-size: 80%;
+    font-weight: 400;
+    color: grey;
+}
+div.details div.price{
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 400;
+    color: crimson;
+}
+div.header div.title{
+    margin-left: 0% !important;
+    padding: 0% !important;
+}
+div.reg{
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.layer{
+    position: fixed;
+    width:100%;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.hidden{
+    display: none !important;
+}
+button{
+    outline: none;
+}
+div.reg div.form{
+    width: 20%;
+    border-radius: 25px;
+    padding: 2%;
+    background: white;
+    position: fixed;
+    left: 35%;
+    top: 30vh;
+    bottom: auto;
+}
+input{
+    width: 90%;
+    padding: 4%;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+div.reg button{
+    background: crimson;
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    padding: 4% 0%;
+    border-radius: 5px;
+    margin-top: 10%;
+    
+}
+div.message{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    color: green;
+}
+
+
+
+

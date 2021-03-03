@@ -1,0 +1,93 @@
+section.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.form{
+    width: 23%;
+    margin-top: 1%;
+    padding: 1% 3%;
+}
+div.title{
+    height: 20px;
+    font-weight: 600;
+    margin-bottom: 5%;
+    font-size: 120%;
+    padding-left: 4%;
+}
+div.form div.box{
+    border-top: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding: 5% 0%;
+}
+div.field{
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+    width: 90%;
+    margin: 0% auto;
+    margin-bottom: 2%;
+    display: flex;
+    padding: 1%;
+    height: 43px;
+    align-items: center;
+}
+div.field div.material-icons{
+    font-size: 150%;
+    width: 15%;
+    text-align: center;
+    color: rgb(209, 209, 209);
+}
+div.form input{
+    width: 85%;
+    height: 80%;
+    font-size: 115%;
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    color: rgb(172, 172, 172);
+}
+div.forgotpass{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin: 0% auto;
+    color: rgb(127, 65, 252);
+    font-size: 100%;
+}
+div.form button{
+    margin: 10% auto 0%;
+    display: block;
+    width: 93%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgb(237, 41, 57);
+    background: rgb(237, 41, 57);
+    color: white;
+    font-weight: 700;
+    outline: none;
+}
+div.legal{
+    width: 90%;
+    margin: 5% auto 0%;
+}
+div.legal a{
+    color: grey;
+    text-decoration: underline;
+}
+div.orlogin{
+    width: 90%;
+    height: 45px;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(40, 40, 40);
+}
+div.orlogin span{
+    font-weight: 700;
+    color: rgb(127, 65, 252);
+}
+
+

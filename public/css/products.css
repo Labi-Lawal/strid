@@ -1,0 +1,201 @@
+section.content{
+    width: 60%;
+    border-right: 1px solid red;
+}
+section.content div.record{
+    
+}
+div.no-record img{
+    width: 50%;
+}
+div.no-record div.message{
+    font-weight: 800;
+    font-size: 200%;
+    color: grey;
+}
+div.links div.products{
+    color: rgba(221, 12, 40, 0.603)!important;
+    border-right: 4px solid rgba(221, 12, 40, 0.603);
+}
+div.record div.header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding: 0% 5%;
+}
+div.buykitbutton{
+    background: rgba(0, 110, 255, 0.219);
+    border-radius: 15px;
+    padding: 0% 1%;
+    width: 15%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+}
+div.buykitbutton div.text{
+    width: 60%;
+    font-size: 80%;
+    font-weight: 500;
+    color: rgb(26, 26, 26);
+}
+div.buykitbutton div.icon{
+    margin-right: 0px !important;
+    font-size: 100%;
+    font-weight: 800;
+    background: rgb(0, 110, 255);
+    color: white;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.list{
+    padding: 5% 0% 0% 5%;
+}
+div.list > div.product{
+    width: 20%;
+    height: 220px;
+    margin-bottom: 5%;
+    display: inline-block;
+    margin-right: 25px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px 1px rgb(235, 235, 235);
+    border-radius: 5px;
+}
+div.product img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+div.product > div.details{
+    padding: 2%;
+    height: 40%;
+}
+div.details div.name{
+    font-size: 100%;
+    font-weight: 600;
+    padding: 1% 0%;
+    height: 50%;
+    max-lines: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} 
+div.details div.desc{
+    font-size: 80%;
+    font-weight: 400;
+    color: grey;
+}
+div.details div.price{
+    font-size: 120%;
+    font-weight: 700;
+    border-radius: 25px;
+    background: crimson;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    margin-top: 2px;
+    font-size: 80%;
+    width: fit-content;
+}
+div.header div.title{
+    margin-left: 0% !important;
+    padding: 0% !important;
+}
+div.reg{
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.layer{
+    position: fixed;
+    width:100%;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.hidden{
+    display: none !important;
+}
+button{
+    outline: none;
+}
+div.reg div.form{
+    width: 60%;
+    height: 70vh;
+    border-radius: 25px;
+    padding: 2%;
+    background: white;
+    position: fixed;
+    left: 15%;
+    top: 10vh;
+    bottom: auto;
+}
+div.reg div.form form{
+    display: flex;
+    height: 100%;
+}
+div.reg div.form div.image{
+    width: 60%;
+    height: 100%;
+    border: 1px dashed lightgrey;
+    overflow: hidden;
+    border-radius: 15px;
+}
+div.reg div.form div.image img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+div.reg div.form div.details{
+    width: 40%;
+    height: 95%;
+    padding: 2%;
+}
+div.reg div.form div.details>div{
+    margin-bottom: 5%;
+}
+input{
+    width: 90%;
+    padding: 4%;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+textarea{
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 200px;
+    max-height: 200px;
+    padding: 4%;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+div.reg button{
+    background: crimson;
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    padding: 4% 0%;
+    border-radius: 5px;
+    margin-top: 10%;
+    
+}
+div.message{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    color: green;
+}
+
+
+
+

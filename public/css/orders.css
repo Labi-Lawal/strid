@@ -1,0 +1,123 @@
+section.content{
+    width: 80%;
+}
+section.content div.record{
+    
+}
+div.no-record img{
+    width: 50%;
+}
+div.no-record div.message{
+    font-weight: 800;
+    font-size: 200%;
+    color: grey;
+}
+div.links div.orders{
+    color: rgba(221, 12, 40, 0.603)!important;
+    border-right: 4px solid rgba(221, 12, 40, 0.603);
+}
+div.record div.header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding: 0% 5%;
+}
+div.buykitbutton{
+    background: rgba(0, 110, 255, 0.219);
+    border-radius: 15px;
+    padding: 0% 1%;
+    width: 15%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+}
+div.buykitbutton div.text{
+    width: 60%;
+    font-weight: 500;
+    color: rgb(26, 26, 26);
+}
+div.buykitbutton div.icon{
+    margin-right: 0px !important;
+    font-size: 100%;
+    font-weight: 800;
+    background: rgb(0, 110, 255);
+    color: white;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.list{
+    padding: 5% 0% 0% 5%;
+}
+div.list > div.kit{
+    width: 50%;
+    height: 100px;
+    border: 1px solid lightgrey;
+    margin-bottom: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+div.kit div.qty{
+    width: 90px;
+    height: 90%;
+    background: rgba(221, 12, 40, 0.603);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 250%;
+    font-weight: 700;
+    color: white;
+}
+div.kit div.details{
+    margin-left: 5%;
+    height: 100%;
+    width: 100%;
+}
+div.productname{
+    display: flex;
+    align-items: center;
+}
+div.productname div.name{
+    font-size: 120%;
+    font-weight: 600;
+}
+div.kit div.status{
+    font-size: 80%;
+    color: grey;
+    margin-left: 5%;
+    font-weight: 300;
+}
+div.productname div.price{
+    font-size: 120%;
+    font-weight: 600;
+    margin-left: auto;
+    color: black;
+}
+div.user div.name{
+    font-size: 120%;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: auto;
+    color: black;
+}
+div.user div.email{
+    font-size: 90%;
+    color: grey;
+}
+div.address{
+    margin-top: 1%;
+    padding: 1% 0%;
+}
+div.orders{
+    
+}
+
+

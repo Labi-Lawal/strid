@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/item.css">
+
+    <title>KITS | STRID</title>
+</head>
+<body>
+
+    <%-include('./includes/header')%>
+
+    <section>
+        <img class="kitimage" src="/images/placeholder1.jpg" >
+        <div class="kitdetails">
+            <div class="kitname">
+                MyHeritage DNA Test Kit - Ancestry & Ethnicity Genetic Testing
+            </div>
+             <div class="kitpackage">
+                <div class="indicator"></div>
+                <div class="indie">Individial</div>
+                <div class="fam">Family</div>
+            </div>
+            <div class="price">
+                <div class="dollarsign">$</div>
+                <div class="digit">80</div>
+            </div>
+            <div class="desc">
+                <ul>
+                    <li>Discover your ethnic origins and find new relatives with a simple cheek swab DNA test. It takes only 2 minutes and you’ll receive your results in 3–4 weeks.</li>
+                    <li>Get a detailed ethnicity breakdown from 42 regions around the world and pinpoint your origins among 2100+ geographic regions, revealing the paths your ancestors traveled over generations. Results are delivered via a fun, animated experience.</li>
+                    <li>Huge global database enables matching to relatives all over the world based on your DNA. MyHeritage is the #1 service for European DNA matching.</li>
+                    <li>Uses the highest technological standards and privacy measures, all for an affordable price. You are the sole owner of your data and all of your information is encrypted. Offers exceptional customer support.</li>
+                    <li>Make the most of your DNA results when you combine them with a MyHeritage subscription. Access advanced DNA features, build your family tree, and search billions of historical records to discover your unique family history.</li>
+                </ul>
+            </div>
+            <div class="purchasekit">
+                <a href="checkout.php"><button class="purchase">PURCHASE</button></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="jquery.min.js"></script>
+    <script>
+
+        var price, packageType;
+
+        $(document).ready(function(){
+            $('div.kitpackage > div.indie').css('color', 'white');
+
+            $('div.kitpackage > div.indie').click(function(){
+                $('div.kitpackage > div.fam').css('color', 'grey');
+                $('div.kitpackage > div.indie').css('color', 'white');
+                $('div.kitpackage > div.indicator').removeClass('goRight');
+                $('div.kitpackage > div.indicator').addClass('goLeft');
+
+                packageType = 'individual';
+
+                $('div.price > div.digit').html('80');
+            });
+
+            $('div.kitpackage > div.fam').click(function(){
+                $('div.kitpackage > div.indie').css('color', 'grey');
+                $('div.kitpackage > div.fam').css('color', 'white');
+                $('div.kitpackage > div.indicator').removeClass('goLeft');
+                $('div.kitpackage > div.indicator').addClass('goRight');
+
+                packageType = 'family';
+
+                $('div.price > div.digit').html('150');
+            });
+
+            // $('div.purchasekit button.purchase').click(function(){
+
+            //     if(packageType == 'individual'){
+            //         qty = 1;
+            //     }
+            //     if(packageType == 'family'){
+            //         qty = 5;
+            //     }
+
+            //     var kitDetails = {
+            //         price: price,
+            //         packageType: packageType,
+            //         qty: qty,
+            //     }
+
+            //     $.ajax({
+            //         type: 'POST',
+            //         url: 'initcheckout.php',
+            //         data: kitDetails,
+            //         success: function(response){
+            //             if(response.error){
+            //                 $('div.errormessage').html('There was an error selecting this kit package.');
+            //             }
+            //             if(response.success) {
+            //                 window.location.pathname = "/checkout.php";
+            //             }
+            //         },
+            //         error: function(error){
+            //             console.log(error);
+            //         }
+            //     });
+            // });
+        });
+
+    </script>
+</body>
+</html>

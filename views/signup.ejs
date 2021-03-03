@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/signup.css">
+
+    <title> Sign Up | STRID </title>
+</head>
+<body>
+
+    <%-include('./includes/header')%>
+
+    <section class="body">
+        <div class="form">
+            <div class="title">Sign Up</div>
+            <div class="box">
+                <div class="field">
+                    <div class="material-icons">person</div>
+                    <input placeholder="Full Name">
+                </div>
+                <div class="field">
+                    <div class="material-icons">mail</div>
+                    <input placeholder="Email">
+                </div>
+                <div class="field">
+                    <div class="material-icons">lock</div>
+                    <input placeholder="Password">
+                </div>
+
+                <button>SIGN UP</button>
+                <div class="legal">
+                    By signing up, you agree to our <span><a>Terms of Use</a></span> and <span><a href="/">Privacy  Policy.</a></span>
+                </div>
+            </div>
+            <div class="orlogin">
+                Already have an account?
+                <span class="login"><a href="/login">Log In</a></span>
+            </div>
+        </div>
+    </section>
+
+    <%-include('./includes/footer')%>
+</body>
+</html>

@@ -1,0 +1,19 @@
+    section.content{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div.no-record img{
+        width: 50%;
+    }
+    div.no-record div.message{
+        font-weight: 800;
+        font-size: 200%;
+        color: grey;
+    }
+    div.links div.notifications{
+        color: rgba(221, 12, 40, 0.603)!important;
+        border-right: 4px solid rgba(221, 12, 40, 0.603);
+    }
+
